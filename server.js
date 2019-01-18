@@ -2,7 +2,7 @@ var http = require('http');
 
 http.createServer(function (req, res) {
     
-    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.writeHead(400, { 'Content-Type': 'text/html' });
     res.end('Hello, Prashanth Kumar Belidha!');
     
 }).listen(process.env.PORT || 8080);
